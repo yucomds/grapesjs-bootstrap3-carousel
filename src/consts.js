@@ -28,8 +28,8 @@ export const
                           vertical-align: middle;
                         }
                         .${name} .img-responsive,
-                        .${name} .ch-carousel-inner > .item > img,
-                        .${name} .ch-carousel-inner > .item > a > img {
+                        .${name} .ch-carousel-inner > .carousel-item > img,
+                        .${name} .ch-carousel-inner > .carousel-item > a > img {
                           display: block;
                           max-width: 100%;
                           width: 100%;
@@ -77,7 +77,7 @@ export const
                           margin-right: auto;
                           width: 80%;
                         }
-                        .${name} .ch-carousel-inner > .item {
+                        .${name} .ch-carousel-inner > .carousel-item {
                           display: none;
                           position: relative;
                           -webkit-transition: 0.6s ease-in-out left;
@@ -87,13 +87,13 @@ export const
                           padding: 1px;
                           background: #F5F5F5;
                         }
-                        .${name} .ch-carousel-inner > .item > img,
-                        .${name} .ch-carousel-inner > .item > a > img {
+                        .${name} .ch-carousel-inner > .carousel-item > img,
+                        .${name} .ch-carousel-inner > .carousel-item > a > img {
                           line-height: 1;
                           display: block;
                           margin: auto;
                         }
-                         .${name}.caption-none > .item > .ch-carousel-caption,
+                         .${name}.caption-none > .carousel-item > .ch-carousel-caption,
                          .${name}.caption-none > .captions-container > .ch-carousel-caption {
                             display: none;
                         }
@@ -117,7 +117,7 @@ export const
                         }
                         @media all and (transform-3d), (-webkit-transform-3d) {
                           .${name} .captions-container > .ch-carousel-caption,
-                          .${name} .ch-carousel-inner > .item {
+                          .${name} .ch-carousel-inner > .carousel-item {
                             -webkit-transition: -webkit-transform 0.6s ease-in-out;
                             -o-transition: -o-transform 0.6s ease-in-out;
                             transition: transform 0.6s ease-in-out;
@@ -128,16 +128,16 @@ export const
                           }
                           .${name} .captions-container > .ch-carousel-caption.next,
                           .${name} .captions-container > .ch-carousel-caption.active.right,
-                          .${name} .ch-carousel-inner > .item.next,
-                          .${name} .ch-carousel-inner > .item.active.right {
+                          .${name} .ch-carousel-inner > .carousel-item.next,
+                          .${name} .ch-carousel-inner > .carousel-item.active.right {
                             -webkit-transform: translate3d(100%, 0, 0);
                             transform: translate3d(100%, 0, 0);
                             left: 0;
                           }
                           .${name} .captions-container > .ch-carousel-caption.prev,
                           .${name} .captions-container > .ch-carousel-caption.active.left,
-                          .${name} .ch-carousel-inner > .item.prev,
-                          .${name} .ch-carousel-inner > .item.active.left {
+                          .${name} .ch-carousel-inner > .carousel-item.prev,
+                          .${name} .ch-carousel-inner > .carousel-item.active.left {
                             -webkit-transform: translate3d(-100%, 0, 0);
                             transform: translate3d(-100%, 0, 0);
                             left: 0;
@@ -145,9 +145,9 @@ export const
                           .${name} .captions-container > .ch-carousel-caption.next.left,
                           .${name} .captions-container > .ch-carousel-caption.prev.right,
                           .${name} .captions-container > .ch-carousel-caption.active,
-                          .${name} .ch-carousel-inner > .item.next.left,
-                          .${name} .ch-carousel-inner > .item.prev.right,
-                          .${name} .ch-carousel-inner > .item.active {
+                          .${name} .ch-carousel-inner > .carousel-item.next.left,
+                          .${name} .ch-carousel-inner > .carousel-item.prev.right,
+                          .${name} .ch-carousel-inner > .carousel-item.active {
                             -webkit-transform: translate3d(0, 0, 0);
                             transform: translate3d(0, 0, 0);
                             left: 0;

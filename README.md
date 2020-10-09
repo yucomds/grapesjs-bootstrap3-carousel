@@ -1,4 +1,4 @@
-# GrapesJS Plugin Carousel
+# GrapesJS Plugin Bootsrap 4 Carousel
 
 ## Options
 
@@ -17,7 +17,7 @@
 ```html
 <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
 <script src="https://unpkg.com/grapesjs"></script>
-<script src="path/to/grapesjs-plugin-carousel.min.js"></script>
+<script src="path/to/grapesjs-bootstrap4-carousel-plugin.min.js"></script>
 
 <div id="gjs"></div>
 
@@ -39,7 +39,7 @@
 Clone the repository
 
 ```sh
-$ git clone https://github.com/omarmd1986/grapesjs-plugin-carousel.git
+$ git clone https://github.com/yucomds/grapesjs-bootstrap3-carousel.git
 $ cd grapesjs-plugins-carousel
 ```
 

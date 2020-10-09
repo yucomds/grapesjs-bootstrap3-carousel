@@ -1,7 +1,7 @@
 import loadComponents from './components';
 import loadBlocks from './blocks';
 
-export default grapesjs.plugins.add('grapesjs-bootstrap3-carousel-plugin', (editor, opts = {}) => {
+export default grapesjs.plugins.add('grapesjs-bootstrap4-carousel-plugin', (editor, opts = {}) => {
     const options = {...{
                 carouselBlock: {},
 

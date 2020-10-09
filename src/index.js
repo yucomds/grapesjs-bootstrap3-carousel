@@ -1,3 +1,4 @@
+import grapesjs from 'grapesjs';
 import loadComponents from './components';
 import loadBlocks from './blocks';
 

@@ -56,7 +56,8 @@ export const
                         .${name}.carousel {
                           position: relative;
                           min-height: 200px;
-                          padding: 1px 20px;   
+                          padding-top: 1px;
+                          padding-bottom : 1px;
                         }
                         .${name} .ch-carousel-inner {
                           overflow: hidden;
